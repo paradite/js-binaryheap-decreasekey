@@ -38,7 +38,9 @@ BinaryHeap.prototype = {
     var result = this.content[0];
     var end = this.content.pop();
 
-    delete this.map[this.idFunction(result)];
+    if (result !== undefined) {
+      delete this.map[this.idFunction(result)];
+    }
 
     if (this.content.length > 0) {
       this.content[0] = end;

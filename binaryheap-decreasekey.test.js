@@ -33,6 +33,7 @@ test('min heap', () => {
   expect(queue.pop()).toBe(objs[0]);
   expect(queue.pop()).toBe(objs[1]);
   expect(queue.pop()).toBe(objs[2]);
+  expect(queue.pop()).toBe(undefined);
 });
 
 test('max heap', () => {
@@ -68,4 +69,5 @@ test('max heap', () => {
   expect(queue.pop()).toBe(objs[1]);
   expect(queue.pop()).toBe(objs[0]);
   expect(queue.pop()).toBe(objs[3]);
+  expect(queue.pop()).toBe(undefined);
 });

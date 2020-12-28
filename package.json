@@ -1,0 +1,22 @@
+{
+  "name": "js-binaryheap-decreasekey",
+  "version": "1.0.0",
+  "description": "js-binaryheap-decreasekey",
+  "main": "binaryheap-decreasekey.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paradite/js-binaryheap-decreasekey.git"
+  },
+  "author": "rombdn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paradite/js-binaryheap-decreasekey/issues"
+  },
+  "homepage": "https://github.com/paradite/js-binaryheap-decreasekey#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

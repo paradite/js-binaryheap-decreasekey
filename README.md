@@ -5,8 +5,7 @@ js-binaryheap-decreasekey
 
 The original binary heap implementation is from the book *Eloquent Javascript* by Marijn Haverbeke : [link](http://eloquentjavascript.net/appendix2.html)
 
-Background : I wrote this because I needed a Dijkstra's algorithm with priority queue in my [Paris Public Transports route planning webapp](http://rombdn.github.com/fx-metrobusparis)
-
+Forked by paradite from [https://github.com/rombdn/js-binaryheap-decreasekey](https://github.com/rombdn/js-binaryheap-decreasekey) in December 2020 to fix the a bug with pop, perform some clean up and add tests.
 
 Usage
 ---------

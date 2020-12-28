@@ -139,3 +139,5 @@ BinaryHeap.prototype = {
         this.bubbleUp(n);
     }
 };
+
+module.exports = BinaryHeap;
